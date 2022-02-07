@@ -1,0 +1,52 @@
+export default {
+  products: [
+    {
+      name: "Nike zoom gt cut",
+      brand: "Nike",
+      image: "../images/Nike_Air_Zoom_G.T._Cut.jpg",
+      price: "260",
+      rating: 4.5,
+      numReviews: 10,
+    },
+    {
+      name: "Jordan 35 low",
+      brand: "Air Jordan",
+      image: "../images/Nike_Air_Zoom_G.T._Cut.jpg",
+      price: "180",
+      rating: 4.3,
+      numReviews: 15,
+    },
+    {
+      name: "Nike zoom kobe v",
+      brand: "Nike",
+      image: "../images/Nike_Air_Zoom_G.T._Cut.jpg",
+      price: "550",
+      rating: 4.8,
+      numReviews: 12,
+    },
+    {
+      name: "Nike Lebron soldier",
+      brand: "Nike",
+      image: "../images/Nike_Air_Zoom_G.T._Cut.jpg",
+      price: "120",
+      rating: 4.0,
+      numReviews: 6,
+    },
+    {
+      name: "Nike zoom gt run",
+      brand: "Nike",
+      image: "../images/Nike_Air_Zoom_G.T._Cut.jpg",
+      price: "160",
+      rating: 3.8,
+      numReviews: 16,
+    },
+    {
+      name: "Nike kyrie 6",
+      brand: "Nike",
+      image: "../images/Nike_Air_Zoom_G.T._Cut.jpg",
+      price: "150",
+      rating: 4.6,
+      numReviews: 20,
+    },
+  ],
+};
