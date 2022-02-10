@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 const Header = () => {
   const openMenu = () => {
     document.querySelector(".sidebar").classList.add("open");
@@ -8,7 +10,7 @@ const Header = () => {
     <header className="header">
       <div className="brand">
         <button onClick={openMenu}>&#9776;</button>
-        <a href="index.html">LPL</a>
+        <Link to="/">LPL</Link>
       </div>
       <div className="header-links">
         <a href="cart.html">Cart</a>
